@@ -2,11 +2,11 @@
    Every file name below carries ?v=<content hash>, so a new upload only
    re-downloads the files that actually changed. Audio is fetched whole
    (the page plays it from memory), so no range requests reach this worker. */
-const VERSION = 'ef6297456e';
+const VERSION = 'bded7e3a64';
 const PREFIX = 'soda-hoertraining-a1-';
 const CACHE = PREFIX + VERSION;
 const CORE = [
-  "manifest.webmanifest?v=e218fac4f3",
+  "manifest.webmanifest?v=0378ccc29a",
   "icons/icon-192.png?v=2124df1ec7",
   "icons/icon-512.png?v=842667b7e1",
   "icons/icon-maskable-512.png?v=1a2b39ad20",
