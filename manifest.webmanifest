@@ -1,8 +1,8 @@
 {
   "id": "./",
-  "name": "Lehrwerk Hörtraining A1",
-  "short_name": "Hören A1",
-  "description": "Sophia Deutsch Akademie 독일어 듣기 훈련 A1 (SODA Original Set 01–06)",
+  "name": "Lehrwerk Hörtraining",
+  "short_name": "Hörtraining",
+  "description": "Sophia Deutsch Akademie 독일어 듣기 훈련 A1–C1 (SODA Original 63세트)",
   "lang": "ko",
   "dir": "ltr",
   "start_url": "./",
@@ -12,19 +12,19 @@
   "theme_color": "#F6F4EF",
   "icons": [
     {
-      "src": "icons/icon-192.png?v=2124df1ec7",
+      "src": "icons/icon-192.png?v=6741d0ebce",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "icons/icon-512.png?v=842667b7e1",
+      "src": "icons/icon-512.png?v=48d5b62eb0",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "icons/icon-maskable-512.png?v=1a2b39ad20",
+      "src": "icons/icon-maskable-512.png?v=823493397b",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
