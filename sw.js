@@ -4,11 +4,11 @@
    (the page plays it from memory), so no range requests reach this worker.
    Audio is downloaded per level: when a student picks a level on Wi-Fi,
    the page asks for that level's files only. */
-const VERSION = '36381aae5c';
+const VERSION = '3f684c45f7';
 const PREFIX = 'soda-hoertraining-web-';
 const CACHE = PREFIX + VERSION;
 const CORE = [
-  "manifest.webmanifest?v=8b790b939a",
+  "manifest.webmanifest?v=251007e5ba",
   "icons/icon-192.png?v=6741d0ebce",
   "icons/icon-512.png?v=48d5b62eb0",
   "icons/icon-maskable-512.png?v=823493397b",
@@ -29,6 +29,8 @@ const AUDIO = [
   "audio/a1-19-a.mp3?v=b3f7eaa2bd",
   "audio/a1-20-a.mp3?v=0cd3f71f80",
   "audio/a1-21-a.mp3?v=1de950120d",
+  "audio/a1-22-a.mp3?v=7ffa475f74",
+  "audio/a1-23-a.mp3?v=899c3f1532",
   "audio/a2-01-a1.mp3?v=ef32ffb2eb",
   "audio/a2-01-a2.mp3?v=5c962a89b0",
   "audio/a2-01-b.mp3?v=6cc4d300f8",
@@ -48,6 +50,8 @@ const AUDIO = [
   "audio/a2-12-a.mp3?v=60c5a5f425",
   "audio/a2-13-a.mp3?v=25e4b9b456",
   "audio/a2-14-a.mp3?v=41121748a7",
+  "audio/a2-15-a.mp3?v=09d82a732c",
+  "audio/a2-16-a.mp3?v=5454eb801d",
   "audio/b1-01-a.mp3?v=677981c24d",
   "audio/b1-01-b.mp3?v=fb4df90dcf",
   "audio/b1-02-a.mp3?v=8d3af55aae",
@@ -66,6 +70,8 @@ const AUDIO = [
   "audio/b1-12-a.mp3?v=05801d8347",
   "audio/b1-13-a.mp3?v=29708d24df",
   "audio/b1-14-a.mp3?v=8bc2d0f5cc",
+  "audio/b1-15-a.mp3?v=d3d62bac20",
+  "audio/b1-16-a.mp3?v=adf0e02dc9",
   "audio/b2-01-a.mp3?v=b6f637a1a7",
   "audio/b2-01-b.mp3?v=69789b2204",
   "audio/b2-02-a.mp3?v=3ff4b49dec",
@@ -84,6 +90,8 @@ const AUDIO = [
   "audio/b2-12-a.mp3?v=46003872eb",
   "audio/b2-13-a.mp3?v=1fae4a07de",
   "audio/b2-14-a.mp3?v=1377eca6e1",
+  "audio/b2-15-a.mp3?v=c8533cbd5f",
+  "audio/b2-16-a.mp3?v=d929603812",
   "audio/c1-01-a.mp3?v=50b956e154",
   "audio/c1-02-a.mp3?v=f822610248",
   "audio/c1-03-a.mp3?v=b771173a11",
@@ -97,7 +105,9 @@ const AUDIO = [
   "audio/c1-11-a.mp3?v=63e0d7ca02",
   "audio/c1-12-a.mp3?v=22aa9b940a",
   "audio/c1-13-a.mp3?v=8c21648723",
-  "audio/c1-14-a.mp3?v=cce9bd8ab1"
+  "audio/c1-14-a.mp3?v=cce9bd8ab1",
+  "audio/c1-15-a.mp3?v=cef6d1d7ac",
+  "audio/c1-16-a.mp3?v=9cdb06094c"
 ];
 
 self.addEventListener('install', (event) => {
